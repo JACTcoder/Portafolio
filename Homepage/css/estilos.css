@@ -1,0 +1,262 @@
+/*Colores:
+|-------|
+|#00171F|
+|#003459|
+|#007EA7|
+|#00A8E8|
+|#FFFFFF|
+|#E2E2E2|
+|-------|
+|#05668D|
+|#028090|
+|#00A896|
+|#02C39A|
+|#F0F3BD|
+|-------|
+|#ED6A5A|
+|#F4F1BB|
+|#9BC1BC|
+|#5CA4A9|
+|#E6EBE0|
+|-------|
+*/
+
+body{
+	margin: 0;
+	font-family: 'Merriweather', serif;
+}
+
+figure{
+	margin: 0;
+}
+
+h2{
+	font-size: 1.8em;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.header{
+	background: #00171F;
+	color: white;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	padding: 10px 0;
+}
+
+.header .contenedor{
+	position: relative;
+}
+
+
+.menu{
+	position: absolute;
+	right: 0;
+	top:0;
+	width: 60vw;
+	font-size: 1.2em;
+}
+
+.menu li{
+	display: inline-block;
+	margin-left: 5%;
+	color: white;
+}
+
+.menu ul{
+	margin: 26px 0;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.portada{
+	text-align: center;
+	color: white;
+	background: #02C39A;
+	margin-top: 82px;
+}
+
+.portada h3{
+	font-family: 'Paprika', cursive;
+	font-size: 1.5em;
+}
+
+.title{
+	margin: 0 auto;
+	font-size: 9em;
+	/*display: block;*/
+	font-family: 'Metamorphous', cursive;
+	font-weight: bold;
+	padding: 8% 0 0 0;
+}
+
+.contenedor{
+	width: 80%;
+	margin: auto;
+}
+
+.secciones{
+	padding: 3% 0;
+}
+
+.sobre-mi h2{
+	margin-top: 0;
+}
+
+.secciones h2, .sobre-mi h2{
+	margin: 0;
+}
+
+.seccion{
+	width: auto;
+	height: auto;
+	background: #E2E2E2;
+	margin: 4% 0 2% 0;
+	display: flex;
+	min-height: 220px;
+}
+
+.seccion h3{
+	text-align: center;
+	margin-top: 0;
+	font-size: 1.3em;
+}
+
+
+.cont-img{
+	height: inherit;
+	width: 30vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+
+.cont-img-platzi{
+	background: #203845;
+}
+
+.cont-img-github{
+	background: #2F353B;
+}
+
+
+.contenido{
+	margin: 2%;
+	width: 100%;
+}
+
+.item{
+	width: 50%;
+	margin-bottom: 2%;
+}
+
+.item a{
+	width: 100%;
+	display: flex;
+}
+
+.item h4{
+	line-height: 50px;
+	margin: 0 0 0 2%;
+	color: black;
+	font-size: 1.1em;
+}
+
+.images-portada{
+	padding-bottom: 11%;
+}
+
+.cont-items{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.logo-platzi, .logo-github 	{
+	width: 52%;
+}
+
+.flex{
+	display: flex;
+}
+
+.flex p{
+	line-height: 180%;
+	font-size: 1.1em;
+	padding: 3%;
+	background-color: #F0F3BD;
+	margin: 0 ;
+	display: flex;
+	align-items: center;
+	border-radius: 15px;
+	width: 70%;
+	height: auto;
+}
+
+.cont-img-julian{
+	display: flex;
+	align-items: center;
+	width: 30%;
+}
+
+.cont-img-julian img{
+	width: 100%;
+}
+
+.footer{
+	background-color: #00171F;
+	color: white;
+}
+
+.footer .contenedor{
+	position: relative;
+	padding: 5% 0;
+}
+
+.contacto a{
+	display: inline-block;
+	margin-bottom: 10px;
+	font-size: 1.05em;
+}
+
+.redes-sociales{
+	position: absolute;
+	top: -13%;
+	left: 41%;
+	display: inline-block;
+}
+
+.redes-sociales div{
+	display: inline-block;
+}
+
+.cont-img-facebook, .cont-img-twitter, .cont-img-instagram{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: transparent;
+	transition: .2s all;
+}
+
+.cont-img-facebook:hover, .cont-img-instagram:hover, .cont-img-twitter:hover{
+	background-color: #02C39A;
+}
+
+.cont-img-facebook:active, .cont-img-twitter:active, .cont-img-instagram:active{
+	transform: scale(.9);
+}
+
+.logo-footer{
+	position: absolute;
+	right: 0;
+	top: 30%;
+	width: 18.5%;
+}
+
+.sobre-mi{
+	margin-bottom: 7%;
+}
